@@ -1,3 +1,4 @@
+/* navbar */
 #img_logo{
     padding: 11PX;
     MARGIN: -28PX;
@@ -12,7 +13,7 @@
 .nav-link{
     margin-left: 30px;
 }
-
+/* footer */
 .logo_f{
     width: 18%;
     margin-top: -11%;
@@ -34,4 +35,12 @@ h4{
     font-family: Inria Sans;
     font-size: 16px;
     font-style: italic;
+}
+
+/* header */
+
+.img-header{
+    position: absolute;
+   width: 10px;
+    /* margin-left: ; */
 }

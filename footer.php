@@ -5,26 +5,24 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
-	
-		<link rel="stylesheet" href="css/ionicons.min.css">
-		<link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>	
+    <link rel="stylesheet" href="style.css">
   </head>
 <body>
-<footer class="footer-07">
-			<div class="container">
+<footer class=" footer-expand-sm bg-dark footer-dark " id="footerP">
+			<div class="container-fluid " style="padding-top: 10%; padding-bottom: 0;">
 				<div class="row justify-content-center">
 					<div class="col-md-12 text-center">
 						<a href="#" class="logo"><img  src="images/logo.png" class="logo_f"></a>
-						<p class="menu">
+						<!-- <p class="menu">
 							<a href="#">Home</a>
 							<a href="#">Agent</a>
 							<a href="#">About</a>
 							<a href="#">Listing</a>
 							<a href="#">Blog</a>
 							<a href="#">Contact</a>
-						</p>
+						</p> -->
                         <div class="f_paiment">
                         <div class="r-paiment">
                             <h4 class="text-white">MODES DE PAIEMENT ET LIVRAISON</h4>
@@ -45,9 +43,8 @@
 				</div>
 				<div class="row mt-5">
 					<div class="col-md-12 text-center">
-						<p class="copyright"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-					  Copyright ©<script>document.write(new Date().getFullYear());</script>2022 All rights reserved | This template is made with <i class="ion-ios-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib.com</a>
-					  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+						<p  class="text-white" >
+					  Copyright ©2022 All rights reserved | This template is made with  by <a href="#" class="text-warning" >MADEMEN.com</a></p>
 					</div>
 				</div>
 			</div>
