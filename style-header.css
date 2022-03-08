@@ -1,45 +1,51 @@
         /* header */
         /*  */
-        .img-header{
-            width: 100%;
-        }
+      
         .img-header-p{
             margin-left: 50%;
             margin-top:-10%;
-            /* margin-top: -50%; */
+         
         }
-
-        /* .header-image-menu{
-            background-image: url('images/photo-header.png');
-            background-size: cover;
-            background-repeat: no-repeat;
-            padding: 200px 50px;
-            opacity: 0.85;
-        } */
         
-        .header-image-menu img{
+        .container .img-header{
+          
             width: 100%;
             margin: none;
             padding: none;
             opacity: 0.85;
         }
+
+
+        .container {
+            position: relative;
+            text-align: center;
+           
+          }
+          
+          .centered {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+          }
+
+
         /* le style de text entre image de header */
         .slogo{
             font-style: italic;
-            WIDTH: 27%;
             font-weight: bold;
             font-size: 50px;
             line-height: 31px;
             font-family: 'Courier New', Courier, monospace;
             color: #000;
-            transform: translate(125%, -355%);
             text-align: center;
         }
+        
         legend{
             color: #74684E;
             position: relative;
             margin-left: 39%;
-            margin-top: -6%;
+            margin-top: 2%;
             width: 22% !important;
         }
         legend::after{
@@ -102,3 +108,41 @@
             position: absolute;
             margin-left: 9%;
         }
+           .produits{
+              display: flex;
+              justify-content:space-between;
+            } 
+            .photo-headr{
+                width: 101%;
+                HEIGHT: 55%;
+            }
+            .par-details{
+                background: linear-gradient(269.63deg, #999999 0.35%, #A2A2A2 0.36%, rgba(153, 153, 153, 0) 99.7%);
+                HEIGHT: 55%;
+                PADDING-BOTTOM: 5.5%;
+            }
+            .div-img{
+                padding: 0;
+            }
+            .titre{
+                color: #1B1628;
+                font-family: Inria Sans;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 32px;
+                line-height: 53px;
+            }
+            .par1 {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 17px;
+                line-height: 24px;
+                color: #C46237;
+            }
+            .par2{
+                font-family: Alef;
+                font-style: normal;
+                font-size: 13px;
+                line-height: 17px;
+                color: #413E3E;
+            }
