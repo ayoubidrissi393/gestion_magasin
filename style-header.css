@@ -108,41 +108,98 @@
             position: absolute;
             margin-left: 9%;
         }
+
            .produits{
               display: flex;
               justify-content:space-between;
             } 
-            .photo-headr{
-                width: 101%;
-                HEIGHT: 55%;
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                max-width: 330px;
+                margin: auto;
+                text-align: center;
+                font-family: arial;
+              }
+              
+              .price {
+                color: grey;
+                font-size: 22px;
+              }
+            .card button {
+                border: none;
+                outline: 0;
+                padding: 15px;
+                color: white;
+                background-color: #000;
+                text-align: center;
+                cursor: pointer;
+                width: 100%;
+                font-size: 18px;
+              }
+              
+              .card button:hover {
+                opacity: 0.7;
+              }
+          
+            .article1{
+                display: flex ;
             }
-            .par-details{
+            .photo-article1{
+                width: 100%;
+                
+            }
+            .div2-article1{
                 background: linear-gradient(269.63deg, #999999 0.35%, #A2A2A2 0.36%, rgba(153, 153, 153, 0) 99.7%);
                 HEIGHT: 55%;
                 PADDING-BOTTOM: 5.5%;
-            }
-            .div-img{
-                padding: 0;
-            }
-            .titre{
+                
+            }  
+            .titre-article1{
+                margin-top: 4%;
                 color: #1B1628;
-                font-family: Inria Sans;
-                font-style: normal;
+                font-family: Georgia, 'Times New Roman', Times, serif;
                 font-weight: bold;
-                font-size: 32px;
-                line-height: 53px;
+                margin-left: 2%;
+                font-size: 37px;
             }
-            .par1 {
+            .par1-article1 {
                 font-style: normal;
                 font-weight: bold;
-                font-size: 17px;
-                line-height: 24px;
+                font-size: 22px;
                 color: #C46237;
+                margin-left: 2%;
             }
-            .par2{
+            .par2-article1{
                 font-family: Alef;
                 font-style: normal;
-                font-size: 13px;
-                line-height: 17px;
+                margin-left: 5%;
+                font-size: 15px;
                 color: #413E3E;
             }
+
+            .row{
+                --bs-gutter-x: -1.5rem !important;
+            }
+            .her {
+                margin-top: 2%;
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                height: 100%;
+            }
+            .imag {
+                width: 60%;
+                height: 100%;
+                left: 653px;
+
+            }
+            .imag img {
+                width: 100%;
+            }
+            .bg {
+                width: 40%;
+                background: linear-gradient(269.63deg, #999999 0.35%, #A2A2A2 0.36%, rgba(153, 153, 153, 0) 99.7%);
+
+            }
+            
+           
