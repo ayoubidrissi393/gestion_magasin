@@ -16,11 +16,10 @@
       <li class="nav-item dropdown">
           <a class="  navbar-brand" href="#" role="button" data-bs-toggle="dropdown">
           <img class="icon" src="images/accont.png"></a>
-            <!-- <a class="navbar-brand" href="javascript:void(0)"></a> -->
+           
           <ul class="dropdown-menu bg-dark">
             <li><a class="dropdown-item text-white" href="#">Sign In</a></li>
             <li><a class="dropdown-item text-white" href="#">Create Compte</a></li>
-            <!-- <li><a class="dropdown-item" href="#"></a></li> -->
           </ul>
         </li>
       <a class="navbar-brand" href="javascript:void(0)"><img class="icon" src="images/panier1.png" ></a>
@@ -28,3 +27,6 @@
     </div>
   </div>
 </nav>
+ <!-- <a class="navbar-brand" href="javascript:void(0)"></a> -->
+            <!-- <li><a class="dropdown-item" href="#"></a></li> -->
+
