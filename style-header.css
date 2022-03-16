@@ -80,7 +80,7 @@
         .category{
             margin: 4%;
         }
-        .category1::before{
+        /* .category1::before{
             content: "";
             display: block;
             width: 2px;
@@ -107,7 +107,7 @@
             background-color: #000000;
             position: absolute;
             margin-left: 9%;
-        }
+        } */
 
            .produits{
               display: flex;
@@ -201,5 +201,29 @@
                 background: linear-gradient(269.63deg, #999999 0.35%, #A2A2A2 0.36%, rgba(153, 153, 153, 0) 99.7%);
 
             }
-            
-           
+            .icone-offers{
+                width: 15%;
+            }
+            .titre-offers{
+                font-size: 16px;
+                margin-top: 2%;
+            }
+            .bg2{
+                width: 40%;
+                background: #050d10; 
+            }
+            .titre-article2{
+                margin-top: 4%;
+                color: aliceblue;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: bold;
+                margin-left: 2%;
+                font-size: 37px;
+            }
+            .par2-article2{
+                font-family: Alef;
+                font-style: normal;
+                margin-left: 5%;
+                font-size: 15px;
+                color: #e2e1e1;
+            }

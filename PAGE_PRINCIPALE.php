@@ -105,7 +105,44 @@
                     <img src="images/article1.jpg">
                 </div>
             </div>
- 
+            <div class="continer text-center my-5">
+                <div class="row">
+                    <div class="col-lg-4 col-ms-12">
+                        <img src="images\gift-box.png" class="icone-offers">
+                        <h3 class="titre-offers">SECURED PAYMENT</h3>
+
+                    </div>
+
+                    <div class="col-lg-4 col-ms-12">
+                        <img src="images\livraison-gratuite.png" class="icone-offers" >
+                        <h3 class="titre-offers">FREE DELIVERY</h3>
+                    </div>
+
+                    <div class="col-lg-4 col-ms-12">
+                        <img src="images\paye.png" class="icone-offers">
+                        <h3 class="titre-offers"> SECURED PAYMENT</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="her">
+                <div class="imag">
+                    <img src="images/article2.jpg">
+                </div>
+
+                <div class="bg2">
+                <h2 class="titre-article2">OUR COMMITMENTS</h2>
+
+                    <p class="par1-article1">Ethics <br>
+                                            Made in France <br>
+                                            Environmentaly friendly </p><br> <br>
+                    <p class="par2-article2">We’re going to reveal the Healthy Male dormant in each of you.
+                                            Archiman is the subtle combination of French “savoir-faire”,
+                                            respect for Men and respect for their environment.
+                                            </p>
+                </div>
+               
+            </div>
             
     <?php 
      include "footer.php";
