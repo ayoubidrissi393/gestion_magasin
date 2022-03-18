@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    font-style: italic;
+    margin: 20px 0px 10px  50px ;
+}
+#frame-content{
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    margin: auto;
+    margin-top: 60px;
+    margin-bottom: 10px;
+    background-color: #E5E5E5;
+    width: 50% ;
+    /* height: 200px; */
+    padding: 20px;
+    /* width: 20px; */
+}
+.info{
+    display: flex;
+    flex-direction: row;
+}
+#demarcation{
+    /* z-index: 1; */
+    margin: 25px;
+    color: black;
+}
+.product-on-cart{
+    float: left;
+}
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#product-name{
+    margin-top: 15px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+#product_price{
+    margin-top: 15Px;
+    margin-left: 15px;
+    font-size: 20px;
+    /* font-weight: bold; */
+
+}
+#product-price-value{
+    margin-left: 50px;
+}
+#quantity{
+   text-align: center; 
+}
+#subtotal-value{
+    margin-left: 300px;
+}
+.container{
+    margin-top: 15Px;
+    margin-left: 15px;
+}
+.button_increment{
+    width: 20px;
+}
+#demarcation1{
+    color: #000;
+    margin: 20px 10px 5px 10px;
+}
+#Checkout-total{
+    display: grid;
+    grid-gap: 600px;
+    grid-template-columns: auto  auto;
+}
+.margin-button{
+    margin: 40px -195px 40px 184px;
+    width: 50%;
+    background-color: #D6A173;
+    border:  solid 2px;
+    border-radius: 12px;
+    text-align: center;
+    padding: 5px;
+    /* border: solid;
+    padding: 10px; */
+}
+a{
+    text-decoration:none !important;
+    color: #fff !important;
+    font-size: 20px;
+}
+/* button{
+    color: #fff;
+    background-color: #D6A173;
+    border:  solid 1px;
+    border-radius: 5px;
+    padding: 5px;
+} */
+/* .margin-total{
+    margin: 40px 150px 20px 0px ;
+    padding: 10px;
+} */
+.total_value {
+    text-align: center;
+    background-color: #E5E5E5;
+    border-radius: 7px;
+    box-shadow: 0px 3px 3px #000;
+    width: 30% !important;
+    /* margin-left: 9em; */
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.total {
+    color: #fff;
+    background-color: #000;
+    border-radius: 6px;
+    box-shadow: 0px 3px 3px #000;
+    font-size: 22px;
+}

@@ -1,12 +1,8 @@
-
 <?php 
     include "connexion.php";
     session_start();
-?>
-
-<?php 
-     $sql = "SELECT * FROM `produit`";
-     $result = mysqli_query($conn, $sql);
+    $sql = "SELECT * FROM `produit`";
+    $result = mysqli_query($conn, $sql);
 ?>
 
 <!DOCTYPE html>
@@ -31,13 +27,7 @@
             <h3 class="slogo">BE THE BEST MAN THAT YOU CAN BE</h3>
         </div>
         </div>
-        <!-- <header>
-            <div class="header-image-menu " >
-            <img class="img-header" src="images/photo-header.png" >
-            <h3 class="slogo">BE THE BEST MAN THAT YOU CAN BE</h3>
-            </div>
-        </header>   -->
-
+       
         <legend>Free shipping worldwide</legend>
 
         <div class="div-category">
@@ -62,7 +52,7 @@
                   <p  style="color:red;"><?php echo "out of stock" ?></p>
             <?php else: ?> 
                   <p class="price"><?php echo $row["prix"]?></p>
-                  <button>Add to Cart</button>
+                 <a href="ProductOverview.php"><button >Add to Cart</button></a> 
               <?php endif ?>
             <!-- </a> -->
             </div>
@@ -72,25 +62,7 @@
                 endwhile;
             ?>
             </div>
-            <!-- <div class="article1">
-                 <div class="div2-article1">
-                        <h2 class="titre-article1">OUR FORMULAE</h2>
-                        <p class="par1-article1">clean <br>
-                        Anti pollution <br>
-                        Without controversive ingredients </p><br> <br>
-                        <p class="par2-article1">Archiman takes care of men by developing specific treatments 
-                            adapted to the most demanding male skin. #ArchiSelection 
-                            #ArchiBlacklist #ArchiDemanding</p>
-                </div>
-                <div class="img-article1">
-                    <img class="photo-article1" src="images/article1.jpg">
-                </div>
-            </div> -->
-
-
-
-
-
+            
 
             <div class="her">
                 <div class="bg">
@@ -150,22 +122,3 @@
     ?>  
 </body>
 </html>
-
-
-
-<!-- <div class="row">
-                    <div class="par-details col-sm-12 col-md-6 col-lg-4  ">
-                        <h2 class="titre">OUR FORMULAE</h2>
-                        <p class="par1">clean <br>
-                        Anti pollution <br>
-                        Without controversive ingredients </p><br> <br>
-                        <p class="par2">Archiman takes care of men by developing specific treatments 
-                            adapted to the most demanding male skin. #ArchiSelection 
-                            #ArchiBlacklist #ArchiDemanding</p>
-                    </div>
-                    <div class="div-img col-sm-9 col-md-6 col-lg-8 ">
-                    
-                        <img class="photo-headr" src="images/photo-headr2.jpg">
-
-                    </div>
-                </div> -->

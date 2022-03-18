@@ -1,0 +1,193 @@
+                * {
+                    padding: 0px !important;
+                    margin: 0px !important;
+                }
+                
+                .container {
+                    display: flex;
+                    padding-top: 50px !important;
+                    padding-bottom: 100px !important;
+                    margin-left: 100px !important;
+                }
+                
+                .title {
+                    font-style: italic;
+                    font-weight: bold !important;
+                    width: 70%!important;
+                    padding-bottom: 50px !important;
+                    font-size: 35px;
+                }
+                
+                .label {
+                    font-style: italic;
+                    font-weight: bold !important;
+                    padding: 10px 0px !important;
+                    width: 123% !important;
+                }
+                
+                .increment .decrement {
+                    width: 10px !important;
+                }
+                
+                #select_quantity {
+                    padding-left: 10px !important;
+                }
+                
+                .quantity_container {
+                    padding-left: 7em !important;
+                }
+                
+                #quantity {
+                    text-align: center;
+                }
+                
+                .form-control {
+                    width: 500px !important;
+                    padding-bottom: 10px !important;
+                }
+                
+                .pre_btn_mgn {
+                    margin-bottom: 3em !important;
+                }
+                
+                .product-on-cart {
+                    width: 100px !important;
+                    float: left !important;
+                    border: 2px solid #000;
+                    border-radius: 7px;
+                }
+                
+                .demarcation {
+                    margin-top: 7px !important;
+                }
+                
+                #checkout_btn {
+                    color: #fff !important;
+                    font-size: 30px;
+                    padding: 0.5em 3em !important;
+                    text-decoration: none;
+                    background-color: #D6A173;
+                    border: 1px solid #000;
+                    border-radius: 7px;
+                    margin-left: 3em !important;
+                }
+                
+                h6 {
+                    padding-left: 7em !important;
+                }
+                
+                .right_list {
+                    background-color: #E5E5E5 !important;
+                    box-shadow: 0px 3px 3px #000;
+                    border-radius: 5px;
+                    padding-top: 7px !important;
+                }
+                
+                .product_price_and_value {
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    grid-gap: 40px !important;
+                    padding-left: 11px !important;
+                }
+                
+                .product_price_value {
+                    font-weight: bold;
+                    font-size: large;
+                }
+                
+                .subtotal_price_and_value {
+                    display: grid;
+                    grid-template-columns: auto auto;
+                    grid-gap: 40px !important;
+                }
+                
+                .subtotal_price {
+                    width: 7em !important;
+                    padding-left: 7px !important;
+                    padding-bottom: 11px !important;
+                }
+                
+                .subtotal_value {
+                    padding-right: 20px !important;
+                    padding-left: 21em !important;
+                    font-weight: bold;
+                    font-size: large;
+                }
+                
+                .total_value {
+                    text-align: center;
+                    background-color: #E5E5E5;
+                    border-radius: 7px;
+                    box-shadow: 0px 3px 3px #000;
+                    width: 20% !important;
+                    margin-left: 15em !important;
+                    margin-top: 30px !important;
+                }
+                
+                .total {
+                    color: #fff;
+                    font-weight: bold;
+                    background-color: #000;
+                    border-radius: 6px;
+                    box-shadow: 0px 3px 3px #000;
+                    padding: 10px 0px !important;
+                }
+                
+                .value {
+                    padding-bottom: 15px !important;
+                }
+                
+                .Right_column {
+                    padding-left: 200px !important;
+                }
+                /* All settings are set for exactly 576px */
+                
+                @media (max-width: 576px) {
+                    main {
+                        max-width: 82% !important;
+                    }
+                    .container,
+                    .container-sm {
+                        display: flex;
+                        flex-direction: column;
+                        max-width: 50%;
+                        padding: 43px 0px !important;
+                        padding-right: 0% !important;
+                    }
+                    .title {
+                        max-width: 0% !important;
+                        padding: 0% 0% !important;
+                    }
+                    .Left_column {
+                        padding-left: 0% !important;
+                        margin-right: 10% !important;
+                    }
+                    .Right_column {
+                        padding-top: 100px !important;
+                        padding-left: 0px !important;
+                        margin-right: 11em !important;
+                    }
+                    .subtotal_value {
+                        padding-left: 8.5em !important;
+                        font-weight: bold;
+                        font-size: large;
+                    }
+                    .total_value {
+                        margin-left: 32% !important;
+                        min-width: 40% !important;
+                    }
+                    .label {
+                        padding: 0px 0px !important;
+                        max-width: 50% !important;
+                    }
+                    .cart_form {
+                        margin-right: 0px !important;
+                        max-width: 57% !important;
+                    }
+                    .form-control {
+                        max-width: 100% !important;
+                    }
+                    #checkout_btn {
+                        margin-left: 0% !important;
+                    }
+                }

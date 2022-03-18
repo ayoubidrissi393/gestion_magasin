@@ -1,7 +1,6 @@
 <<<<<<< Updated upstream
     <?php 
-        // session_start();
-
+      include 'connexion.php';
     ?>
     <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
       <div class="container-fluid">
@@ -52,7 +51,7 @@
                 <li><a class="dropdown-item text-white" href="register_form.php">Create Compte</a></li>
               </ul>
             </li>
-          <a class="navbar-brand" href="javascript:void(0)"><img class="icon" src="images/panier1.png" ></a>
+          <a class="navbar-brand" href="CartPage.php"><img class="icon" src="images/panier1.png" ></a>
 
         </div>
       </div>
@@ -63,65 +62,24 @@
 
 <?php 
 
-
-
-        
-        if(isset($_POST['submit1']))
-        {
-              
-                $email= $_POST['email'];
-                $pswd= md5($_POST['pswd']);
-            
-                $sql="SELECT * FROM client WHERE email='$email' AND pass='$pswd' ";
-                $data = $conn->query($sql);
-                    // $res= mysqli_query($conn, $sql);
-                    $result = $data->fetch_assoc();
-                    // echo $sql ."<br>". $result["idClient"];
-                    if(!empty($result))
-                      {
-                         echo"<script> alert ('bien connexion')</script>";
-                           header("location : test.php");
-                        $_SESSION['idClient']=$result['idClient']; 
-                       
-                     
-                      }
-                    else
-                    {
-                      echo"<script> alert ('email invalid or passowrd ')</script>";
-                    }
+        // session_start();
+        if(isset($_POST["submit1"])){
+          $email = $_POST["email"];
+          // $_SESSION["error_login"] = "";
+          $pswd= md5($_POST["pswd"]);
+          $sql = "SELECT * FROM client WHERE email = '$email' AND pass = '$pswd'";
+          $data = $conn->query($sql);
+          $res = $data->fetch_assoc();
+          if(!empty($res)){
+              header("location: test.php");
+              $_SESSION["idClient"] = $res["idClient"];
+          }
+          else{
+              // $_SESSION["error_login"] = "Incorrect username or password!";
+              header("location: welecom .php");
+            }
         }
-        // else
-        // {
-        //   echo"<script> alert ('Passowrd Not Matchind ')</script>";
-        // }
-
-
-
-          // session_start();
-          // if(isset($_POST['submit1']))
-          // {
-                 
-          //         $email= $_POST['email'];
-          //         $pswd= md5($_POST['pswd']);
-              
-          //             $sql="SELECT * FROM client WHERE email='$email' AND pass='$pswd' ";
-          //             $result= mysqli_query($conn, $sql);
-          //             if($result -> num_rows > 0)
-          //               {
-          //                 $row = mysqli_fetch_assoc($result);
-          //                 $_SESSION['First_Name']=$row['First_Name'];
-          //                header("location : welcom.php");
-          //               }
-          //             else{
-          //               echo"<script> alert ('email invalid or passowrd ')</script>";
-          //             }
-          //         }
-          //         else
-          //         {
-          //           echo"<script> alert ('Passowrd Not Matchind ')</script>";
-          //         }
-                      
-          
+  
       ?>
 
 
@@ -176,7 +134,3 @@
             }
           }
           </script>
-
- <!-- <a class="navbar-brand" href="javascript:void(0)"></a> -->
-            <!-- <li><a class="dropdown-item" href="#"></a></li> -->
-
