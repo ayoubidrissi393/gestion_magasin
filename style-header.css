@@ -80,6 +80,35 @@
         .category{
             margin: 4%;
         }
+        /* .category1::before{
+            content: "";
+            display: block;
+            width: 2px;
+            height: 30px;
+            background-color: #000000;
+            position: absolute;
+            margin-left: 12%;
+        
+        }
+        .category2::before{
+            content: "";
+            display: block;
+            width: 2px;
+            height: 30px;
+            background-color: #000000;
+            position: absolute;
+            margin-left: 13%;
+        }
+        .category3::before{
+            content: "";
+            display: block;
+            width: 2px;
+            height: 30px;
+            background-color: #000000;
+            position: absolute;
+            margin-left: 9%;
+        } */
+
            .produits{
               display: flex;
               justify-content:space-between;
@@ -147,6 +176,7 @@
                 font-size: 15px;
                 color: #413E3E;
             }
+
             .row{
                 --bs-gutter-x: -1.5rem !important;
             }
@@ -171,8 +201,6 @@
                 background: linear-gradient(269.63deg, #999999 0.35%, #A2A2A2 0.36%, rgba(153, 153, 153, 0) 99.7%);
 
             }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
             .icone-offers{
                 width: 15%;
             }
@@ -199,43 +227,3 @@
                 font-size: 15px;
                 color: #e2e1e1;
             }
-=======
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            .popup{
-                background: rgba(0, 0, 0, 0.6);
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                top: 0;
-                display: flex;
-                justify-content:center;
-                align-items: center;
-            }
-            .popup-content{
-                height: 250px;
-                width: 500px;
-                background: #fff;
-                padding: 20px;
-                border-radius: 5px;
-                position: relative;
-            }
-            
-           
->>>>>>> Stashed changes
-=======
-            
-           
->>>>>>> Stashed changes
